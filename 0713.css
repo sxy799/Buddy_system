@@ -1,0 +1,190 @@
+﻿*
+{
+	text-decoration: none;
+}
+body
+{
+	background-color:rgba(0,0,0,0.10);
+	background-image: url(os/mainbg1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+} 
+.mainwrap 
+{
+    background-color: rgba(12, 13, 13, 0.27);
+
+}
+/*  header  */
+ /*  nav  */
+nav
+{
+	height:50px;
+	background: rgba(89, 86, 81, 0.57);
+}
+
+nav ul
+{
+	list-style: none;
+	margin:0;
+}
+
+nav ul li
+{
+	display:inline-block;
+	line-height:50px;
+	margin-right: 20px;
+	float:right;
+	
+}
+
+nav ul li a
+{
+   line-height: 50px;
+   text-decoration: none;
+   display: inline-block;
+   height:inherit;
+   color: #fff;
+}
+nav ul li.logo
+{
+	float: left;
+}
+
+.banner
+{
+	position: relative;
+	height:1000px;
+}
+.banner
+{
+	text-align: center;
+	margin: 0 auto;
+	position: relative; 
+}
+/*   */ 
+.inner
+{
+	width: 700px;
+	text-align:center;
+	margin:0 auto;
+	position: relative;
+	top:120px;
+	color: white;
+}
+.inner h1
+{
+	font-size: 30px;
+	margin:0;
+	padding:30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+
+.inner h2
+{
+   padding-top: 100px;
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+.inner p
+{
+	text-align: left;
+	padding-left: 100px;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.banner .inner .sub-heading
+{
+	line-height: 30px;
+	margin:15px 0 ;
+	letter-spacing: 1px;
+}
+/*   内容   */
+.logo
+{
+	font-size:20px;
+	font-weight: 700px;
+	letter-spacing: 1px;
+ }
+ .logo a
+ {
+ 	color:#fff;
+ }
+.green-section
+{
+	background: rgba(74, 74, 69, 0.29);
+	color:#fff;
+	text-align:center;
+	padding: 180px 0;
+	margin:0 auto;
+}
+ .wrap
+ {
+ 	width: 1080px;
+ 	margin:0 auto;
+ }
+ .wrap  h2
+ {
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	letter-spacing: 3px;
+ }
+.hr
+ {
+   height: 2px;
+   margin: 50px auto;
+   width: 60%;
+   background:white;
+ }
+.icon-group
+ {
+ 	margin-top: 80px;
+ }
+.icon
+{
+	display: inline-block;
+	width: 80px;
+	height:80px;
+	background: transparent;
+	margin:20px;
+}
+
+/*
+.icon-group > a > img
+{
+	width:100%;
+	height:100%;
+}*/
+ /*  页脚 */ 
+footer
+{
+	font-size: 0px;
+	margin:0px;
+	background: rgba(41, 42, 39, 0.88);
+	color: #fff;
+	height: 100px;
+	text-align: center;
+}
+.share-group 
+{
+	font-size: 16px;
+	display: block;
+	width:1080px;
+	margin:0 auto;
+	padding:20px;
+}
+.share-group li
+{
+	display: inline-block;
+	padding-left: 50px;
+}
+.copy
+{
+	font-size: 16px;
+	padding-bottom: 0px; 
+}

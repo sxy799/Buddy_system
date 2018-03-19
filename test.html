@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>弹出</title>
+	 <link rel="stylesheet" href="test.css"> 
+    <style>
+    #mask
+    {
+       background-color: #000;
+       opacity: 0.75;
+       width:100%;
+       height:500px;
+       position:absolute; 
+       z-index:1000;
+    } 
+   </style>
+</head>
+<body style = "height : 1200px">
+	<script src = "test.js"></script>
+    <div class="wrap"> 
+      
+        <header> 
+		    <h1 style="text-align: center;">操&nbsp;作&nbsp;系&nbsp;统&nbsp;课&nbsp;程&nbsp;设&nbsp;计&nbsp; —— 伙&nbsp;伴&nbsp;系&nbsp;统&nbsp;演&nbsp;示</h1>
+		    <div class="hr"></div>
+		    <p>Curriculum design of operating system -- Buddy heap demonstration</p>
+		</header>
+		<div class="choose" > 
+				<ul id="need" >
+				    <p>控制面板：</p>
+					<li>
+					   <button id = "apply" onclick = "applyin()">申请内存</button>
+					   <input id = "apply-size" type="text"><dfn>您要申请的内存大小</dfn>
+					   <input id = "apply-name" type="text"><dfn>您要申请的内存名字（可重复）</dfn> 
+					</li>
+					<li><button id = "release" onclick = "releaseout()">释放内存</button><input id = "release-size" type="text"><dfn>请输入您要释放内存的首地址</dfn></li>
+					<li><button id = "check" class = "check" onclick = "show()">查看内存占用情况</button></li>
+					<li><button type="reset" id="re" onclick="reset();" >重置</button></li>
+					<li><button id = "quit" onclick="shutwin()">退出</button></li>
+				</ul>
+		</div>
+		<div id="show-situation">
+		</div>
+
+
+	<footer>
+		<p>2017-08-30</p>
+		<p>1504010522-孙喜洋</p>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="0713.css">
+  <title>整体界面</title>
+</head>
+<body>
+    <script src = "0713.css"></script>
+    <script>
+      function print_onclick(url)
+    {
+    var a=window.open(url, "_blank","top=0,left=0,height=900,width=1520,status=yes,toolbar=1,menubar=no,location=no,scrollbars=yes");
+    }
+    </script>
+<div class="mainwrap">  
+     <header> <!--页头 -->
+        <nav>
+            <ul>
+              <li class = "logo" ><a href = "#">2017/09/05</a></li>
+              <li><a href = "#" >孙喜洋</li>
+              <li><a href = "#" >1504010522</li>
+              <li><a href = "#" >15级5班</li>
+              <li><a href = "#" >计算机科学与技术专业</li>
+            </ul>
+        </nav>
+        <div class= "banner"> 
+               <div class= "inner" >
+                   <h1>操&nbsp;作&nbsp;系&nbsp;统&nbsp;课&nbsp;程&nbsp;设&nbsp;计 ———— 伙&nbsp;伴&nbsp;系&nbsp;统 </h1>
+                   <p class = "sub-heading" style="text-align: center;padding-top: 30px;">Linux操作系统中内存分配的伙伴堆算法模拟 </p>
+                 
+                    <h2>本次课程设计具体要求：</h2>
+                    <p >（1）模拟内存实始情况。</p>
+                    <p >（2）实现Buddy heap算法。</p>
+                    <p >（3）通过键盘输入随机产生的申请和释放操作。</p>
+                    <p >（4）每次申请或释放都显示实时的内存分配的对比图。</p>
+              </div>
+        </div>
+     </header>
+    
+      <div class = "content"><!-- 内容  -->
+         <section class="green-section">
+            <div class="wrap">
+                <h2>本次课程设计最终结果：</h2>
+                <div class="hr"></div>    
+              <div class="icon-group">
+                  <a class = "icon" href="test.html"><img class = "ico-img" src="icon1.png" alt=""></a>
+                  <a class = "icon" href="https://pan.baidu.com/disk/home?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0#list/path=%2F&vmode=list"><img class = "ico-img" src="icon2.png" alt=""></a>
+                  <a class = "icon" onclick = "print_onclick('os1.pdf')"><img class = "ico-img" src="icon3.png" alt=""></a>
+              </div>
+            </div>
+         </section>
+      </div>
+     <footer> <!--页脚 -->
+           <ul  class="share-group">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Jquery</li>
+            <li>Ajax</li>
+           </ul>
+           <div class="copy">
+             &copy孙喜洋  -2017
+           </div>
+     </footer> 
+</div>
+ 
+</body>
+</html>
